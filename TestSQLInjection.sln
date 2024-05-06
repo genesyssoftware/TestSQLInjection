@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSQLInjection.Server", "TestSQLInjection.Server\TestSQLInjection.Server.csproj", "{251F24F5-1723-4918-9190-47E0AB4DC7C0}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "testsqlinjection.client", "testsqlinjection.client\testsqlinjection.client.esproj", "{B9CBF391-B407-4E0B-A65A-3180E5BECD10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{251F24F5-1723-4918-9190-47E0AB4DC7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251F24F5-1723-4918-9190-47E0AB4DC7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251F24F5-1723-4918-9190-47E0AB4DC7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251F24F5-1723-4918-9190-47E0AB4DC7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CBF391-B407-4E0B-A65A-3180E5BECD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CBF391-B407-4E0B-A65A-3180E5BECD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CBF391-B407-4E0B-A65A-3180E5BECD10}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B9CBF391-B407-4E0B-A65A-3180E5BECD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CBF391-B407-4E0B-A65A-3180E5BECD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CBF391-B407-4E0B-A65A-3180E5BECD10}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A288728A-F96A-4CA3-A50E-A93026F35E10}
+	EndGlobalSection
+EndGlobal
